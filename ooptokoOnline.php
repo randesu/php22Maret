@@ -32,7 +32,7 @@ class Keranjang{
         foreach ($this ->produk as $item){
             $item['produk']->tampilkan();
             echo "<p>jumlah: {$item['jumlah']}</p>";
-            echo "<br>";
+            echo "<hr>";
         }
     }
 }
